@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "ae:oldnetherhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 10,
+    "salt": 282203017
+  }
+}

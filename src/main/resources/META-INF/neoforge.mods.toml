@@ -1,0 +1,55 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="Apache License version 2.0"
+
+[[mods]]
+modId="ae"
+version="2.6.1"
+displayName="Aucte Enchanté"
+updateJSONURL="https://www.curseforge.com/minecraft/mc-mods/amulet"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/amulet/"
+logoFile="logo.png"
+credits="It's my first mod"
+authors="katze1503"
+description="The Mod adds a lot of magic."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ae]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.6.117,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ae]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.ae]]
+    modId="curios_api"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ae]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ae]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

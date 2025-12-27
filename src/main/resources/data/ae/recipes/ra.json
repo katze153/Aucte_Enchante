@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "a_1",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "ae:amulet_part"
+    }
+  },
+  "result": {
+    "item": "ae:amulet",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ae:custom/updating_table",
+  "textures": {
+    "all": "ae:block/update_table",
+    "particle": "ae:block/update_table",
+    "1": "ae:block/update_table"
+  },
+  "render_type": "solid"
+}

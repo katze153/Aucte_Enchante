@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "river",
+  "spawners": {
+    "type": "ae:snail",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

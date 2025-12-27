@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"in": {
+			"loop": true,
+			"bones": {
+				"vorn": {
+					"position": {
+						"vector": [0, 0, 3.9]
+					},
+					"scale": {
+						"vector": [1, 1, 0.2]
+					}
+				},
+				"hinten": {
+					"position": {
+						"vector": [0, 0, -0.7]
+					},
+					"scale": {
+						"vector": [1, 1, 0.4]
+					}
+				},
+				"ohr": {
+					"rotation": {
+						"vector": [95, 0, 0]
+					},
+					"position": {
+						"vector": [-0.8, -0.9, 4.5]
+					},
+					"scale": {
+						"vector": [0.6, 1, 1]
+					}
+				},
+				"Schutz": {
+					"position": {
+						"vector": [0, -1, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

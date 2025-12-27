@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ae:amuletofhealing",
+    "ae:amuletofprotection",
+    "ae:amuletofwaterbreathing",
+    "ae:amuletofknockbackresistance",
+    "ae:amuletofstep"
+  ]
+}

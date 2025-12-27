@@ -1,0 +1,1413 @@
+{
+  "mod_elements": [
+    {
+      "name": "StrongDiamont",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_part",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/item/StrongDiamontItem.java",
+          "src/main/resources/assets/ae/models/item/amulet_part.json"
+        ]
+      },
+      "path": "~/Strongdiamonds"
+    },
+    {
+      "name": "RGD",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rgd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/rgd.json"
+        ]
+      },
+      "path": "~/Strongdiamonds"
+    },
+    {
+      "name": "Updatetable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "updatetable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/block/entity/UpdatetableBlockEntity.java",
+          "src/main/resources/assets/ae/models/block/updatetable.json",
+          "src/main/resources/data/ae/loot_tables/blocks/updatetable.json",
+          "src/main/resources/assets/ae/blockstates/updatetable.json",
+          "src/main/java/net/ktf/ae/block/UpdatetableBlock.java",
+          "src/main/resources/assets/ae/models/item/updatetable.json"
+        ]
+      },
+      "path": "~/Updatetabe"
+    },
+    {
+      "name": "GTE",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gte",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/client/gui/GTEScreen.java",
+          "src/main/java/net/ktf/ae/world/inventory/GTEMenu.java",
+          "src/main/java/net/ktf/ae/network/GTESlotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Amulet",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/item/AmuletItem.java",
+          "src/main/resources/assets/ae/models/item/amulet.json"
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "UMain",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/UMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Updatetabe"
+    },
+    {
+      "name": "AmuletWennEinGegenstandHergestelltOderGeschmolzenWurde",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_wenn_ein_gegenstand_hergestellt_oder_geschmolzen_wurde",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletWennEinGegenstandHergestelltOderGeschmolzenWurdeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "RUT",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rut",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/rut.json"
+        ]
+      },
+      "path": "~/Updatetabe"
+    },
+    {
+      "name": "RA",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/ra.json"
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "AmuletWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "AmuletBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "Umainn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umainn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/UmainnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Updatetabe"
+    },
+    {
+      "name": "Umaina",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umaina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/UmainaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Updatetabe"
+    },
+    {
+      "name": "AmuletBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "Perma",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/PermaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amulettofhealing",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofhealing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/item/AmulettofhealingItem.java",
+          "src/main/resources/assets/ae/models/item/amuletofhealing.json"
+        ]
+      },
+      "path": "~/Amulettofhealing"
+    },
+    {
+      "name": "AmulettofhealingWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofhealing_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofhealingWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofhealing"
+    },
+    {
+      "name": "AmulettofhealingBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofhealing_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofhealingBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofhealing"
+    },
+    {
+      "name": "Amulett",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulett",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Amulettofprotection",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofprotection",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ae/models/item/amuletofprotection.json",
+          "src/main/java/net/ktf/ae/item/AmulettofprotectionItem.java"
+        ]
+      },
+      "path": "~/Amulettofprotection"
+    },
+    {
+      "name": "AmulettofprotectionBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofprotection_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofprotectionBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofprotection"
+    },
+    {
+      "name": "AmulettofprotectionWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofprotection_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofprotectionWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofprotection"
+    },
+    {
+      "name": "RezeptP",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rezept_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/rezept_p.json"
+        ]
+      },
+      "path": "~/Amulettofprotection"
+    },
+    {
+      "name": "RezeptH",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rezept_h",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/rezept_h.json"
+        ]
+      },
+      "path": "~/Amulettofhealing"
+    },
+    {
+      "name": "Atfirststart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atfirststart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AtfirststartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Oldnetherhouse",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldnetherhouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/worldgen/structure_set/oldnetherhouse.json",
+          "src/main/resources/data/ae/worldgen/template_pool/oldnetherhouse.json",
+          "src/main/resources/data/ae/worldgen/structure/oldnetherhouse.json"
+        ]
+      }
+    },
+    {
+      "name": "AmulettofwaterbreathingWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofwaterbreathing_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofwaterbreathingWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofunderwater"
+    },
+    {
+      "name": "AmulettofwaterbreathingBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofwaterbreathing_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofwaterbreathingBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofunderwater"
+    },
+    {
+      "name": "AmulettofwaterbreathingBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofwaterbreathing_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofwaterbreathingBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofunderwater"
+    },
+    {
+      "name": "Amulettofwaterbreathing",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofwaterbreathing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/item/AmulettofwaterbreathingItem.java",
+          "src/main/resources/assets/ae/models/item/amuletofwaterbreathing.json"
+        ]
+      },
+      "path": "~/Amulettofunderwater"
+    },
+    {
+      "name": "Aow",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/aow.json"
+        ]
+      },
+      "path": "~/Amulettofunderwater"
+    },
+    {
+      "name": "Amuletslot",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletslot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/amuletslot.json"
+        ]
+      }
+    },
+    {
+      "name": "AmuletWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulett"
+    },
+    {
+      "name": "AmulettofhealingWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofhealing_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofhealingWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofhealing"
+    },
+    {
+      "name": "AmulettofprotectionWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofprotection_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofprotectionWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofprotection"
+    },
+    {
+      "name": "AmulettofwaterbreathingWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulettofwaterbreathing_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmulettofwaterbreathingWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amulettofunderwater"
+    },
+    {
+      "name": "Debug",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/DebugProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Debugall",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debugall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/command/DebugallCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AmuletofRevival",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_of_revival",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ae/models/item/amulet_of_revival.json",
+          "src/main/java/net/ktf/ae/item/AmuletofRevivalItem.java"
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "Respawning",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respawning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/RespawningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "AmuletofRevivalBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletof_revival_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofRevivalBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "AmuletofRevivalWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletof_revival_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofRevivalWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "AmuletofRevivalWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletof_revival_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofRevivalWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "Saveiteminhand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saveiteminhand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/SaveiteminhandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "item",
+            "type": "itemstack"
+          },
+          {
+            "name": "menge",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "Deadpoint",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadpoint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/DeadpointProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "AoR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ao_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/ao_r.json"
+        ]
+      },
+      "path": "~/AmuletofRevival"
+    },
+    {
+      "name": "Amuletofknockbackresistance",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofknockbackresistance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/item/AmuletofknockbackresistanceItem.java",
+          "src/main/resources/assets/ae/models/item/amuletofknockbackresistance.json"
+        ]
+      },
+      "path": "~/Amuletofknockback_resistance"
+    },
+    {
+      "name": "AmuletofknockbackresistanceWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofknockbackresistance_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofknockbackresistanceWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amuletofknockback_resistance"
+    },
+    {
+      "name": "AmuletofknockbackresistanceBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofknockbackresistance_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofknockbackresistanceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amuletofknockback_resistance"
+    },
+    {
+      "name": "AmuletofknockbackresistanceBaubleIsUnequipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofknockbackresistance_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofknockbackresistanceBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amuletofknockback_resistance"
+    },
+    {
+      "name": "AmuletofknockbackresistanceWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletofknockbackresistance_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletofknockbackresistanceWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Amuletofknockback_resistance"
+    },
+    {
+      "name": "Rkr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rkr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/rkr.json"
+        ]
+      },
+      "path": "~/Amuletofknockback_resistance"
+    },
+    {
+      "name": "AmuletoffireresistanceWennGegenstandImInventarTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletoffireresistance_wenn_gegenstand_im_inventar_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletoffireresistanceWennGegenstandImInventarTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/AMuletoffireressistens"
+    },
+    {
+      "name": "AmuletoffireresistanceBaubleIsEquipped",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletoffireresistance_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletoffireresistanceBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/AMuletoffireressistens"
+    },
+    {
+      "name": "AmuletoffireresistanceWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletoffireresistance_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/AmuletoffireresistanceWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/AMuletoffireressistens"
+    },
+    {
+      "name": "Amuletoffireresistance",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amuletoffireresistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ae/models/item/amuletoffireresistance.json",
+          "src/main/java/net/ktf/ae/item/AmuletoffireresistanceItem.java"
+        ]
+      },
+      "path": "~/AMuletoffireressistens"
+    },
+    {
+      "name": "Raf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ae/recipes/raf.json"
+        ]
+      },
+      "path": "~/AMuletoffireressistens"
+    },
+    {
+      "name": "Snail",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/entity/model/SnailModel.java",
+          "src/main/java/net/ktf/ae/entity/SnailEntity.java",
+          "src/main/resources/data/ae/forge/biome_modifier/snail_biome_modifier.json",
+          "src/main/java/net/ktf/ae/client/renderer/SnailRenderer.java",
+          "src/main/resources/assets/ae/models/item/snail_spawn_egg.json"
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "SnailWennEntitatVerletztIst",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail_wenn_entitat_verletzt_ist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/SnailWennEntitatVerletztIstProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "SnailWennSpielerMitDieserEinheitZusammenstosst",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail_wenn_spieler_mit_dieser_einheit_zusammenstosst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/SnailWennSpielerMitDieserEinheitZusammenstosstProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "SnailBeiErstellungDesErstenObjects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail_bei_erstellung_des_ersten_objects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/SnailBeiErstellungDesErstenObjectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "SnailBeiEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail_bei_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/SnailBeiEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "Istamen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "istamen",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/IstamenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "Hit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hit",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/HitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "SnailWennRechtsAufEinheitGeklicktWird",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail_wenn_rechts_auf_einheit_geklickt_wird",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/SnailWennRechtsAufEinheitGeklicktWirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "Istamenn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "istamenn",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/IstamennProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    },
+    {
+      "name": "IsSittingNot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_sitting_not",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ktf/ae/procedures/IsSittingNotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tiere/Snail"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "dead_point_x",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "dead_point_y",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "dead_point_z",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "dead_point_world",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "was_amulet_equict",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "rv_amulet_lvl",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "v_item",
+      "type": "itemstack",
+      "scope": "player_persistent",
+      "value": "ItemStack.EMPTY"
+    },
+    {
+      "name": "v_menge",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.ae.snail": "Snail",
+      "item.jda.amuletofknockbackresistance": "Amulet of knockback protection",
+      "item_group.jda.amulett": "Amulet",
+      "item.ae.amuletofhealing": "Amulet of Healing",
+      "item.amulet.amulet_part": "Amulet part",
+      "item.jda.amuletofhealing": "Amulet of Healing",
+      "item.ae.amulet_part": "Amulet part",
+      "item.ae.snail_spawn_egg": "Snail Spawn Egg",
+      "item.ae.amuletofwaterbreathing": "Amulet of waterbreathing",
+      "gui.amulet.gte.button_m": "M",
+      "item.jda.amuletoffireresistance": "Amulet of fire resistance",
+      "block.amulet.updatetable": "Updatetable",
+      "item.amulet.amuletofprotection": "Amulet of protection",
+      "item.amulet.amulet_of_revival": "Amulet of Revival",
+      "item.amulet.amulet": "Amulet",
+      "item.jda.amuletofprotection": "Amulet of protection",
+      "item.amulet.amuletoffireresistance": "Amulet of fire resistance",
+      "item.jda.amulet_part": "Amulet part",
+      "entity.jda.snail": "Snail",
+      "block.ae.updatetable": "Updatetable",
+      "item.amulet.amuletofhealing": "Amulet of Healing",
+      "item.ae.amuletoffireresistance": "Amulet of fire resistance",
+      "item.jda.amuletofwaterbreathing": "Amulet of waterbreathing",
+      "item.jda.amulet_of_revival": "Amulet of Revival",
+      "item.jda.amulet": "Amulet",
+      "item.ae.amuletofknockbackresistance": "Amulet of knockback protection",
+      "block.jda.updatetable": "Updatetable",
+      "item_group.ae.amulett": "Amulet",
+      "item.ae.amulet_of_revival": "Amulet of Revival",
+      "curios.identifier.amuletslot": "Amulet",
+      "item.ae.amuletofprotection": "Amulet of protection",
+      "item.amulet.amuletofknockbackresistance": "Amulet of knockback protection",
+      "item_group.amulet.amulett": "Amulet",
+      "item.amulet.amuletofwaterbreathing": "Amulet of waterbreathing",
+      "item.ae.amulet": "Amulet",
+      "item.jda.snail_spawn_egg": "Snail Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Updatetabe",
+        "children": []
+      },
+      {
+        "name": "Amulett",
+        "children": []
+      },
+      {
+        "name": "Amulettofhealing",
+        "children": []
+      },
+      {
+        "name": "Amulettofprotection",
+        "children": []
+      },
+      {
+        "name": "Strongdiamonds",
+        "children": []
+      },
+      {
+        "name": "Amulettofunderwater",
+        "children": []
+      },
+      {
+        "name": "AmuletofRevival",
+        "children": []
+      },
+      {
+        "name": "Amuletofknockback_resistance",
+        "children": []
+      },
+      {
+        "name": "AMuletoffireressistens",
+        "children": []
+      },
+      {
+        "name": "Tiere",
+        "children": [
+          {
+            "name": "Snail",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ae",
+    "modName": "Aucte Enchanté",
+    "version": "2.4.1",
+    "description": "The Mod adds a lot of magic.",
+    "author": "katze1503",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/aucte-enchante",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "a",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "It\u0027s my first mod",
+    "modElementsPackage": "net.ktf.ae"
+  },
+  "mcreatorVersion": 202400232117
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "amulet.png",
+    "name": "Amulet",
+    "amount": 2
+  }
+}

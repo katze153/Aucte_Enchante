@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "a_0",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:book"
+    },
+    "b": {
+      "item": "ae:amulet_part"
+    },
+    "c": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "ae:updatetable",
+    "count": 1
+  }
+}

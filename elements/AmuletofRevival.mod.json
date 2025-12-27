@@ -1,0 +1,67 @@
+{
+  "_fv": 66,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "revive2",
+    "customModelName": "Normal",
+    "name": "Amulet of Revival",
+    "rarity": "EPIC",
+    "slotType": "Amuletslot",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "CUSTOM:Amulett"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "",
+        "max lvl  = 3",
+        "lvl 1 -> lvl 2 = 5 AP",
+        "lvl 2 -> lvl 3 = 10 AP"
+      ]
+    },
+    "hasGlow": false,
+    "customProperties": {},
+    "states": [],
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "onItemInInventoryTick": {
+      "name": "Lvl"
+    },
+    "curioTick": {
+      "name": "AmuletofRevivalWhileBaubleIsEquippedTick"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "a_7",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobweb"
+    },
+    "b": {
+      "item": "ae:amulet_part"
+    },
+    "c": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "ae:amuletofknockbackresistance",
+    "count": 1
+  }
+}

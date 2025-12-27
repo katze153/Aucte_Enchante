@@ -1,0 +1,13 @@
+/summon jda:snail
+/summon jda:snail ~ ~ ~ {NoAI:true}
+/execute in minecraft:the_nether run tp @s ~ ~ ~
+/kill
+/setblock ~ ~1 ~ minecraft:redstone_wire
+/setblock ~ ~ ~ minecraft:water
+/setblock -57 70 -7 minecraft:redstone_block
+/setblock -57 70 -7 minecraft:air
+/setblock -57 70 -7 minecraft:redstone_block
+/setblock -57 70 -7 minecraft:air
+/forceload add ~ ~ ~ ~
+/setblock -57 70 -7 minecraft:redstone_block
+/setblock -57 70 -7 minecraft:air

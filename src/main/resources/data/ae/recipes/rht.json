@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "a_9",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_pearl"
+    },
+    "b": {
+      "item": "minecraft:black_bed"
+    },
+    "c": {
+      "item": "ae:amulet_part"
+    }
+  },
+  "result": {
+    "item": "ae:hometeleport",
+    "count": 1
+  }
+}

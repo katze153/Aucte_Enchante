@@ -1,27 +1,56 @@
 plugins {
-    id 'eclipse'
+    id 'idea'
     id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
 }
 
-version = '1.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+group = 'com.ktf.ae'
+version = '2.6.2'
+archivesBaseName = 'ae'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17) // Forge 1.21.x benötigt Java 17
 
+// -------------------- Repositories --------------------
+repositories {
+    maven { name = "Forge"; url = "https://maven.minecraftforge.net/" }
+    maven { url = "https://maven.theillusivec4.top/" } // Curios
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' } // GeckoLib
+    maven { name = "Progwml6's maven"; url = "https://dvs1.progwml6.com/files/maven/" } // JEI
+    maven { name = "Jared's maven"; url = "https://maven.blamejared.com/" } // JEI
+    maven { name = "ModMaven"; url = "https://modmaven.dev" } // JEI/Allgemein
+    mavenCentral()
+}
+
+// -------------------- Dependencies --------------------
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+
+    // Curios
+    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.4.2+1.20.1:api")
+    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.4.2+1.20.1")
+
+    // GeckoLib
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.2')
+
+    // JEI
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.3.0.8")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.3.0.8")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.3.0.8")
+}
+
+// -------------------- Minecraft Setup --------------------
 minecraft {
     mappings channel: 'official', version: '1.20.1'
 
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
-
     copyIdeResources = true
 
     runs {
         client {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 examplemod {
@@ -29,29 +58,31 @@ minecraft {
                 }
             }
         }
-
         server {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 examplemod {
                     source sourceSets.main
                 }
             }
+        }
+        data {
+            workingDirectory project.file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
         }
     }
 }
 
-dependencies {
-    minecraft 'net.minecraftforge:forge:1.20.1-47.2.0'
-}
-
+// -------------------- Java Compile Options --------------------
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    options.encoding = 'UTF-8'
 }
 
-apply from: 'mcreator.gradle'
-
+// -------------------- Optional MCreator --------------------
+// apply from: 'mcreator.gradle' // Nur aktivieren, wenn du MCreator tatsächlich noch benutzt

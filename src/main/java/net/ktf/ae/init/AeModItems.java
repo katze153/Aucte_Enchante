@@ -23,6 +23,7 @@ import net.ktf.ae.item.AmuletofknockbackresistanceItem;
 import net.ktf.ae.item.AmuletoffireresistanceItem;
 import net.ktf.ae.item.AmuletofRevivalItem;
 import net.ktf.ae.item.AmuletItem;
+import net.ktf.ae.item.AmulettofinvulnerableItem;
 import net.ktf.ae.AeMod;
 
 public class AeModItems {
@@ -32,6 +33,7 @@ public class AeModItems {
 	public static final RegistryObject<Item> AMULET = REGISTRY.register("amulet", () -> new AmuletItem());
 	public static final RegistryObject<Item> AMULETOFHEALING = REGISTRY.register("amuletofhealing", () -> new AmulettofhealingItem());
 	public static final RegistryObject<Item> AMULETOFPROTECTION = REGISTRY.register("amuletofprotection", () -> new AmulettofprotectionItem());
+    public static final RegistryObject<Item> AMULETOFINVULNERABLE = REGISTRY.register("amuletofinvulnerable", () -> new AmulettofinvulnerableItem());
 	public static final RegistryObject<Item> AMULETOFWATERBREATHING = REGISTRY.register("amuletofwaterbreathing", () -> new AmulettofwaterbreathingItem());
 	public static final RegistryObject<Item> AMULET_OF_REVIVAL = REGISTRY.register("amulet_of_revival", () -> new AmuletofRevivalItem());
 	public static final RegistryObject<Item> AMULETOFKNOCKBACKRESISTANCE = REGISTRY.register("amuletofknockbackresistance", () -> new AmuletofknockbackresistanceItem());

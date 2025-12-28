@@ -30,5 +30,6 @@ public class AeModTabs {
 				tabData.accept(AeModItems.SNAIL_SPAWN_EGG.get());
 				tabData.accept(AeModItems.HOMETELEPORT.get());
 				tabData.accept(AeModItems.AMULETOFSTEP.get());
+                tabData.accept(AeModItems.AMULETOFINVULNERABLE.get());
 			}).withSearchBar().build());
 }

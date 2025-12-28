@@ -1,0 +1,21 @@
+How to add an amulet
+
+1.      main
+- go to src\main\java\net\ktf\ae\item
+- make an amulet with functions ...
+
+
+2.      add in every config in files
+- go to src\main\resources\data\ae\tags\items
+- write your amulet in amulets.json
+- write your amulet in tier_{max_lvl}.json
+- add recipe in src\main\resources\data\ae\recipes
+- add register in src\main\java\net\ktf\ae\init\AeModItems.java
+- add amuletbaubel in src/main/resources/data/curios/tags/items/amuletslot.json
+- add amulet to tap in src/main/java/net/ktf/ae/init/AeModTabs.java
+
+3.          make lang & textures
+
+- add name to src/main/resources/assets/ae/lang/de_de.json and en_us.json
+- add texture png to src/main/resources/assets/ae/textures/item
+- add {id}.json to src/main/resources/assets/ae/models/item
